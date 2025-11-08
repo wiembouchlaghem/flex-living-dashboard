@@ -1,0 +1,55 @@
+.flex-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fdfcf8;
+  color: #222;
+  transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+.flex-header.scrolled {
+  background-color: #004d43;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+.flex-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.flex-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.flex-nav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.flex-nav a:hover {
+  color: #008c7a;
+}
+
+.flex-header.scrolled .flex-nav a:hover {
+  color: #ddd;
+}
+
+.flex-main {
+  margin-top: 80px;
+}

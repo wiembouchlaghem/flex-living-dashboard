@@ -1,0 +1,32 @@
+.review-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.review-text {
+  font-style: italic;
+  color: #334155;
+  margin-bottom: 0.5rem;
+}
+
+.review-rating {
+  font-weight: 600;
+  color: #2563eb;
+}

@@ -1,0 +1,485 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 9001,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Cozy and well-maintained apartment, perfect for a short stay.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-01-12T11:30:00Z",
+      "guestName": "Amélie Fournier",
+      "listingName": "Seaside Studio - Brighton"
+    },
+    {
+      "id": 9002,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Amazing view and very peaceful neighborhood.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "location",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2024-02-05T09:45:00Z",
+      "guestName": "Jules Martin",
+      "listingName": "Hillside Loft - Edinburgh"
+    },
+    {
+      "id": 9003,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Good apartment but slightly noisy at night.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 6
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-03-18T14:15:00Z",
+      "guestName": "Clara Dubois",
+      "listingName": "City Center Flat - Manchester"
+    },
+    {
+      "id": 9004,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Perfect stay! Everything was clean and well organized.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-04-22T16:50:00Z",
+      "guestName": "Lucas Bernard",
+      "listingName": "Riverside Apartment - Bath"
+    },
+    {
+      "id": 9005,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Decent place, but a bit far from main attractions.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 6
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "location",
+          "rating": 5
+        }
+      ],
+      "submittedAt": "2024-05-10T10:10:00Z",
+      "guestName": "Sophie Leroy",
+      "listingName": "Quiet Studio - York"
+    },
+    {
+      "id": 9006,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Clean apartment with all amenities, nice host.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-06-01T12:30:00Z",
+      "guestName": "Antoine Dupont",
+      "listingName": "Central Flat - Liverpool"
+    },
+    {
+      "id": 9007,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great apartment, friendly host, will return.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "location",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-07-14T09:40:00Z",
+      "guestName": "Élodie Caron",
+      "listingName": "Harbor View Studio - Cardiff"
+    },
+    {
+      "id": 9008,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Nice location, room a bit small.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 7
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-08-20T15:20:00Z",
+      "guestName": "Nathan Simon",
+      "listingName": "Downtown Flat - Bristol"
+    },
+    {
+      "id": 9009,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Comfortable and clean, very good stay.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2024-09-12T18:00:00Z",
+      "guestName": "Léa Rousseau",
+      "listingName": "City Loft - Newcastle"
+    },
+    {
+      "id": 9010,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Amazing apartment, excellent communication with host.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-10-05T14:45:00Z",
+      "guestName": "Thomas Berger",
+      "listingName": "Luxury Studio - Oxford"
+    },
+    {
+      "id": 9101,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Excellent guest, left everything tidy.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "location",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "guestName": "Emma Delacroix",
+      "listingName": "Seaside Apartment - Brighton"
+    },
+    {
+      "id": 9102,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Guest polite, did not provide rating.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "location",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2024-02-20T12:30:00Z",
+      "guestName": "Julien Moreau",
+      "listingName": "Central Loft - Edinburgh"
+    },
+    {
+      "id": 9103,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Very polite and tidy guest, highly recommend.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-03-05T14:15:00Z",
+      "guestName": "Claire Petit",
+      "listingName": "Riverside Loft - Bath"
+    },
+    {
+      "id": 9104,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Good guest, room left clean.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-04-10T09:50:00Z",
+      "guestName": "Victor Leclerc",
+      "listingName": "City Apartment - Manchester"
+    },
+    {
+      "id": 9105,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Average guest, some mess left behind.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 6
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "location",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-05-01T11:20:00Z",
+      "guestName": "Alice Bernard",
+      "listingName": "Cozy Studio - York"
+    },
+    {
+      "id": 9106,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Excellent guest, everything left perfect.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-06-12T14:40:00Z",
+      "guestName": "Maxime Leroy",
+      "listingName": "Modern Flat - Liverpool"
+    },
+    {
+      "id": 9107,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Polite guest, minor mess left.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2024-07-18T15:10:00Z",
+      "guestName": "Sophie Martin",
+      "listingName": "Luxury Loft - Cardiff"
+    },
+    {
+      "id": 9108,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Amazing guest, would host again.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-08-20T12:30:00Z",
+      "guestName": "Léa Dubois",
+      "listingName": "Harbor View Apartment - Bristol"
+    },
+    {
+      "id": 9109,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Guest left a few things untidy.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 7
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "location",
+          "rating": 6
+        }
+      ],
+      "submittedAt": "2024-09-05T10:50:00Z",
+      "guestName": "Julien Dupont",
+      "listingName": "City Studio - Liverpool"
+    },
+    {
+      "id": 9110,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Polite and tidy guest, all good.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "location",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-10-10T14:30:00Z",
+      "guestName": "Thomas Petit",
+      "listingName": "Modern Studio - Oxford"
+    }
+  ]
+}

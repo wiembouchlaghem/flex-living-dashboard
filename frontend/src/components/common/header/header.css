@@ -1,0 +1,62 @@
+/* ============= HEADER GLOBAL ============= */
+.flexliving-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  background-color: #ffffff;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.flexliving-header.scrolled {
+  background-color: #004d43;
+  color: white;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+/* ============= CONTAINER DU HEADER ============= */
+.flexliving-header-content {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+/* ============= LOGO ============= */
+.flexliving-logo img {
+  height: 120px;        /* ✅ Taille du logo augmentée */
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.flexliving-logo img:hover {
+  transform: scale(1.05);
+}
+
+/* ============= NAVIGATION ============= */
+.flexliving-nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.flexliving-nav a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: inherit;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.flexliving-nav a:hover {
+  opacity: 0.6;
+}
