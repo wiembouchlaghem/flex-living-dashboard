@@ -156,3 +156,29 @@ Dynamic integration of Google Cloud reviews.
 Real-time notifications and tracking.
 
 Improved dashboard pagination and filter options.
+
+10.  Local Setup Instructions
+* Backend
+cd backend
+npm install
+
+
+Create a .env file:
+
+MONGO_URI=<your_connection_string>
+PORT=4000
+
+
+Run the backend:
+
+npm run dev
+
+
+* seed mock data:
+
+curl -X POST http://localhost:4000/api/reviews/hostaway/seed
+
+* Frontend
+cd frontend
+npm install
+npm run dev
