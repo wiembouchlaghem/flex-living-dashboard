@@ -8,17 +8,13 @@ dotenv.config();
 
 const flexApp = express(); 
 flexApp.use(cors());
-flexApp.use(express.json());
 
 // DB Connection
 connectDB();
 
-// Test root endpoint
-flexApp.get("/", (req, res) => {
-  res.send("Flex Living Backend is running!");
-});
-
-// API routes
+// Middleware
+flexApp.use(cors()); 
+flexApp.use(express.json());
 flexApp.use("/api/reviews", RevRoutes); 
 
 // Port
@@ -27,4 +23,7 @@ flexApp.listen(APP_PORT, () =>
   console.log(`FlexApp backend up and running on port ${APP_PORT}`)
 );
 
-export default flexApp;
+export default flexApp; 
+
+
+
